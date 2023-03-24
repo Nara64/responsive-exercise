@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family : 'roboto';
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    font-family: 'balsamiq Sans';
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+nav a, nav ul, svg {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2em;
+}
+
+nav .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: none;
+}
